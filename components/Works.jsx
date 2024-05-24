@@ -2,9 +2,9 @@ import React from 'react';
 function Works() {
   return (
     
-    <div className="container mx-auto text-center py-24">
-      <h2 className="text-3xl font-bold mb-8">How It Works</h2>
-      <p className="text-lg mb-12">Connecting Players, One Game at a Time</p>
+    <div id="how-it-works" className="container mx-auto text-center ">
+      <h2 className="text-3xl font-bold mb-8 text-white">How It Works</h2>
+      <p className="text-lg mb-12 text-white">Connecting Players, One Game at a Time</p>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
         <div className="bg-white p-8 rounded-lg shadow-lg">
           <h3 className="text-xl font-bold mb-4">Sign Up</h3>

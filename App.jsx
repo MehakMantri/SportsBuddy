@@ -1,6 +1,6 @@
 import React from 'react';
 import Navbar from './components/Navbar'
-import Hero from './components/Hero';
+import Menu from './components/Menu'
 import Footer from './components/Footer'
 import Works from './components/Works'
 import AboutUs from './components/AboutUs'
@@ -10,14 +10,14 @@ import Join from './components/Join';
 
 function App() {
   return (
-    <div className="bg-coolGray">
+    <div className="bg-darkPurple">
       <Navbar />
-      <Hero />
+      <Menu />
       <Works />
       <AboutUs />
       <Features />
       <Testimonials />
-      <Join />
+      {/* <Join /> */}
       <Footer />
     </div>
   );
