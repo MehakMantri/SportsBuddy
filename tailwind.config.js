@@ -13,6 +13,7 @@ export default {
         freshGreen: '#4CAF50',
         coolGray: '#607D8B',
         livelyPurple: '#9C27B0',
+        darkPurple:'#000319',
       },
       fontFamily: {
         poppins: ["Poppins", "sans-serif"],
