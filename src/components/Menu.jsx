@@ -20,14 +20,13 @@ function Menu() {
 
       {/* Content */}
       <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center text-white z-10">
-        <h1 className="text-4xl md:text-5xl font-bold mb-8">
-          Find Your Perfect Playmate <br /> with SportsBuddy
+        <h1 className="text-4xl md:text-5xl font-bold mb-4 font-sans">
+         Discover, Connect,<br /> Play Sports with SportsBuddy
         </h1>
-        <p className="text-lg mb-12">
-          Connect with fellow sports enthusiasts in your area and start playing
-          today!
+        <p className="text-lg mb-6 font">
+         connect with nearby sports enthusiasts and schedule <br /> meetups effortlessly through real-time chat and <br /> location-based matching.
         </p>
-        <button className="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded-full">
+        <button className="bg-blue-500 hover:bg-blue-600 text-white font-bold py-4 px-4 rounded-full">
           Join Now
         </button>
       </div>

@@ -103,14 +103,14 @@ function Testimonials() {
   ];
 
   return (
-    <div id="testimonials" className="">
+    <div id="testimonials" className="py-32">
       <div className="container mx-auto text-center">
         {/* <h2 className="text-3xl font-bold mb-8 text-white"> */}
         <h2 className="text-3xl font-bold mb-8 text-white">
-          Kind Words from our   <span className="text-purple-500">satisfied Clients</span>
+          Kind Words from our   <span className="text-purple">satisfied Clients</span>
         </h2>
         <p className="text-lg mb-12 text-white">Join Thousands of Happy Players</p>
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 bg-darkPurple">
           {/* First set of testimonials */}
           <CardStack items={CARDS_1} />
 

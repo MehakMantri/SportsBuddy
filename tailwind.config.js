@@ -28,7 +28,8 @@ module.exports = {
         purple:'#CBACF9',
       },
       fontFamily: {
-        poppins: ["Poppins", "sans-serif"],
+        'sans': ['Montserrat', 'sans-serif'],
+        'serif': ['Georgia', 'serif'],
       },
     },
     screens: {
