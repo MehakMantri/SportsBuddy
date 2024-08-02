@@ -26,6 +26,12 @@ module.exports = {
         livelyPurple: '#9C27B0',
         darkPurple: '#000319',
         purple:'#CBACF9',
+        teal:'#00B3A6',
+        gold: '#FFD700',
+        coral: '#FF6F61',
+        lavender: '#E6E6FA',
+        silver: '#C0C0C0',
+        soft: '#F5F5F5',
       },
       fontFamily: {
         'sans': ['Montserrat', 'sans-serif'],
