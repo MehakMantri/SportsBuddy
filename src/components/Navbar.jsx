@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from "react-router-dom";
 const Navbar = () => {
   return (
     <nav className="fixed top-0 left-0 right-0 z-10 flex items-center justify-between px-8 py-4 bg-darkPurple text-white">
@@ -17,7 +18,7 @@ const Navbar = () => {
 
       {/* Right section - Join Now button */}
       <div>
-        <button className="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded-full">Join Now</button>
+      <Link to="/register" className="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded-full">Join Now</Link>
       </div>
     </nav>
   );

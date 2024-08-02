@@ -103,7 +103,7 @@ function Testimonials() {
   ];
 
   return (
-    <div id="testimonials" className="py-32">
+    <div id="testimonials" className="py-">
       <div className="container mx-auto text-center">
         {/* <h2 className="text-3xl font-bold mb-8 text-white"> */}
         <h2 className="text-3xl font-bold mb-8 text-white">
